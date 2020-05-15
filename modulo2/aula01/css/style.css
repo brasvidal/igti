@@ -1,0 +1,14 @@
+body {
+  background-color: #ffffff;
+}
+.foto {
+  border: 1px solid;
+  border-color: black;
+  border-radius: 12px;
+  position: flow;
+  width: 200px;
+  height: 200px;
+}
+.dados {
+  position: relative;
+}
