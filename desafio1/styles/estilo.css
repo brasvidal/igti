@@ -1,0 +1,14 @@
+body {
+  padding-left: 220px;
+}
+#resultColor {
+  background-color: black;
+  border-radius: 25px;
+  width: 500px;
+  height: 500px;
+  border-color: black;
+  border-style: solid;
+}
+.Slider-Red {
+  color: red;
+}
