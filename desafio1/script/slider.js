@@ -1,10 +1,18 @@
-var slider = document.getElementsByClassName('Slider');
-var txtred = document.getElementById('txtred');
-var txtgreen = document.getElementById('txtgreen');
-var txtblue = document.getElementById('txtblue');
-if (slider. {
-  txtred.value = document.getElementById('slider-red').value;
-  txtgreen.value = document.getElementById('slider-green').value;
-  txtblue.value = document.getElementById('slider-blue').value;
+window.addEventListener('load');
+var corred = document.getElementById('corRed');
+
+console.log(corred.value);
+
+function handleSubmit(event) {
+  event.preventDefault();
 }
-console.log(txtred.value);
+cor.addEventListener(
+  'change',
+  function () {
+    (document.getElementById('resultColor').style.backgroundColor =
+      'rgb ' + corred),
+      corgreen,
+      corblue;
+  },
+  false
+);

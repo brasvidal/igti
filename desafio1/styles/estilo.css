@@ -2,7 +2,7 @@ body {
   padding-left: 220px;
 }
 #resultColor {
-  background-color: black;
+  background-color: rgb(red, green, blue);
   border-radius: 25px;
   width: 500px;
   height: 500px;

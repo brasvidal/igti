@@ -9,39 +9,18 @@
   </head>
   <body>
     <h1>Desafio 01 - Slider com JS</h1>
-
+    <!-- prettier-ignore -->
     <form>
-      <div id="sliderbox">
-        <p></p>
-        <input
-          type="range"
-          class="Slider"
-          min="1"
-          max="255"
-          value="0"
-          id="slider-red"
-        />
-        <input type="text" id="txtred" />
-        <p></p>
-        <input
-          type="range"
-          class="Slider"
-          min="1"
-          max="255"
-          value="0"
-          id="slider-green"
-        />
-        <input type="text" id="txtgreen" />
-        <p></p>
-        <input
-          type="range"
-          class="Slider"
-          min="1"
-          max="255"
-          value="0"
-          id="slider-blue"
-        />
-        <input type="text" id="txtblue" />
+      <div class="slider">
+        <input type="range" id="corRed" name="sliderRed" min="1" max="255" value="128" oninput="this.form.valorRed.value=this.value" />
+        <input type="number" name="valorRed" min="1" max="255" value="128" oninput="this.form.sliderRed.value=this.value"/>
+        <b></b>
+        <input type="range" id="corGreen" name="sliderGreen" min="1" max="255" value="128" oninput="this.form.valorGreen.value=this.value" />
+        <input type="number" name="valorGreen" min="1" max="255" value="128" oninput="this.form.sliderGreen.value=this.value"/>
+        <b></b>
+        <input type="range" id="corBlue" name="sliderBlue" min="1" max="255" value="128" oninput="this.form.valorBlue.value=this.value" />
+        <input type="number" name="valorBlue" min="1" max="255" value="128" oninput="this.form.sliderBlue.value=this.value"/>
+        
       </div>
 
       <div id="resultColor"></div>
