@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
     document.getElementById('resultColor').style.background = rgb;
     console.log(rgb);
   };
-  //tentei refatorar os listeners, só funciona solto.
+  //tentei refatorar os listeners, só funciona solto..
   document.getElementById('corRed').addEventListener('input', changeColor);
   document.getElementById('corGreen').addEventListener('input', changeColor);
   document.getElementById('corBlue').addEventListener('input', changeColor);
