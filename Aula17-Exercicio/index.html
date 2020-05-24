@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/estilo.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio Guiado - Aula 17</title>
+  </head>
+  <body>
+    <h1>World Selector Tool</h1>
+    <div class="contry-container">
+      <div class="country-list">
+        <h5>Países (<span id="countCountries"></span>)</h5>
+        <h6>População Total (<span id="totalPopulationList"></span>)</h6>
+        <div id="tabCountries"></div>
+      </div>
+
+      <div class="country-list">
+        <h5>Países (<span id="countFavorites"></span>)</h5>
+        <h6>População Total (<span id="totalPopulationFavor"></span>)</h6>
+        <div id="tabFavorites"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>

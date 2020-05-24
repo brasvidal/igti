@@ -1,0 +1,33 @@
+.contry-container {
+  display: flex;
+}
+
+.country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bandeira {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+  border-color: darkgrey;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 5px 5px 4px #888888;
+}
+
+.add {
+  border-radius: 50%;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+}
+.country-list {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin-right: 10px;
+}
