@@ -72,7 +72,7 @@ function renderCountryList() {
 
   countriesHTML += '</div>';
   tabCountries.innerHTML = countriesHTML;
-  tabCountries = allCountries;
+  //tabCountries = allCountries; Fiz essa merda, não tava funcionando por causa disso
 }
 function renderFavorites() {
   let favoritesHTML = '<div>';
@@ -99,7 +99,7 @@ function renderFavorites() {
     favoritesHTML += favoriteCountryHTML;
   });
   favoritesHTML += '</div>';
-  tabCountries.innerHTML = favoritesHTML;
+  tabFavorites.innerHTML = favoritesHTML;
 }
 function renderSummary() {
   countCountries.textContent = allCountries.length;
